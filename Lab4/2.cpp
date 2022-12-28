@@ -12,7 +12,7 @@ int main() {
  go( &a, &c ) ;
  printf( "%d %p %p %p\n", **a, *a, a, &a ) ;
  return 0 ;
-}
+}//end function
 
 void go ( int ***p, int **z ) {
 	*p = z ;
