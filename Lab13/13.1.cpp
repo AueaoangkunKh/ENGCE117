@@ -43,4 +43,3 @@ int *KnapsackDP( int *w, int *v, int n, int wx ) {
     }
     return x;
 }
-
